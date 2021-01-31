@@ -1,6 +1,3 @@
-// @TODO: YOUR CODE HERE!
-
-//Section 1: Pre-Data Setup
 // Grab the width of the containing box
 var width = parseInt(d3.select("#scatter").style("width"));
 
@@ -31,10 +28,10 @@ var svg = d3
 var circRadius;
 function crGet() {
   if (width <= 530) {
-    circRadius = 5;
+    circRadius = 10;
   }
   else {
-    circRadius = 10;
+    circRadius = 20;
   }
 }
 crGet();
